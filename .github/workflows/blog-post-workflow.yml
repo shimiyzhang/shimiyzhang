@@ -16,5 +16,6 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          comment_tag_name: "STACKOVERFLOW"
           feed_list: "https://zhangshumeng.top/feed.xml"
           template: "<tr><td>$title</td><td>$url</td></tr>"
